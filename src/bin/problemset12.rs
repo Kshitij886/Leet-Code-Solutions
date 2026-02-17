@@ -7,6 +7,10 @@ impl Solution {
             .chars()
             .map(|c| c.to_digit(10).unwrap())
             .collect();
+        if
+        for i in 0..vec.len() {
+            let place = 10u32.pow(i as u32);
+        }
         return String::from("hello");
     }
 }
