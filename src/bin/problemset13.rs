@@ -1,5 +1,6 @@
 struct Solution;
 
+// time complexity > 5ms
 // impl Solution {
 //     pub fn roman_to_int(mut s: String) -> i32 {
 //         let mut num: i32 = 0;
@@ -35,6 +36,7 @@ struct Solution;
 //     }
 // }
 
+// time complexity = 0ms
 impl Solution {
     fn roman_to_int(s: String) -> i32 {
         let mut num: i32 = 0;
