@@ -18,9 +18,7 @@ impl Solution {
             (4, "IV"),
             (1, "I"),
         ];
-        for c in s.chars() {
-
-        }
+        for c in s.chars() {}
         return num;
     }
 }
