@@ -7,7 +7,7 @@ impl Solution {
         for i in 1..n + 1 {
             arr.push(i);
         }
-        println!("{:?}", arr);
+
         // while k > 0 {
         //     num = 0;
         //     for i in 1..n + 1 {
