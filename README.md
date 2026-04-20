@@ -1,60 +1,72 @@
-🧠 LeetCode Solutions in Rust
+# 🧠 LeetCode Solutions in Rust
 
-A collection of LeetCode problem solutions implemented in Rust, organized by problem sets and topics. This repository is part of my practice to improve problem-solving skills, algorithmic thinking, and Rust proficiency.
+![Rust](https://img.shields.io/badge/Rust-🦀-orange?style=for-the-badge)
+![LeetCode](https://img.shields.io/badge/LeetCode-Practice-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Progress-Active-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
-📌 Overview
+A curated collection of **LeetCode solutions in Rust**, built to strengthen my understanding of algorithms, data structures, and Rust systems programming.
 
-This repo contains solutions to various LeetCode problems, structured for easy navigation and experimentation. Each file represents a specific problem or set of problems.
+---
 
-⚙️ Tech Stack
-Language: Rust 🦀
-Tooling: Cargo
-Approach: Problem-solving + algorithm optimization
-📁 Project Structure
+## 🚀 Why This Repo Exists
+
+Because solving problems is easy…  
+Writing *clean, fast, reusable Rust code* is where the real grind begins.
+
+This repository tracks my journey of:
+
+- 🧩 Improving problem-solving skills  
+- 🦀 Writing idiomatic Rust  
+- 🧠 Building algorithm intuition instead of memorizing patterns  
+
+---
+
+## 📌 Problem Source
+
+All problems are from LeetCode:
+
+👉 https://leetcode.com/
+
+---
+
+## ⚙️ Tech Stack
+
+- 🦀 Rust (primary language)  
+- 📦 Cargo (build system)  
+- 🧠 Algorithms & Data Structures  
+
+---
+
+## 📁 Project Structure
+
 src/
- ├── bin/
- │   ├── prefixsum.rs
- │   ├── problemset3.rs
- │   ├── problemset6.rs
- │   ├── problemset7.rs
- │   ├── problemset8.rs
- │   ├── problemset9.rs
- │   ├── problemset10.rs
- │   ├── problemset12.rs
- │   ├── problemset13.rs
- │   ├── problemset14.rs
- │   ├── problemset1413.rs
- │   ├── problemset15.rs
- │   ├── problemset43.rs
- │   ├── problemset60.rs
- │   ├── problemset202.rs
- │   ├── problemset974.rs
- │   ├── problemset1346.rs
- │   └── main.rs
-🚀 How to Run
+├── bin/
+
+│ ├── prefixsum.rs
+
+│ ├── problemset3.rs
+
+│ ├── problemset6.rs
+
+│ ├── problemset7.rs
+
+│ ├── problemset8.rs
+  .
+  .
+  .
+  
+│ └── main.rs
+
+
+---
+
+## ▶️ How to Run
 
 Run a specific solution:
 
+```bash
 cargo run --bin problemset10
-
-Or run the main file:
-
-cargo run
-🎯 Goals
-Practice data structures & algorithms
-Strengthen Rust fundamentals
-Write clean, efficient, and idiomatic Rust code
-🧩 Topics Covered
-Arrays & Strings
-Prefix Sum
-Hashing
-Math & Logic
-Basic Algorithms
-📈 Future Improvements
-Add problem descriptions and links
-Add time & space complexity notes
-Group solutions by topic (DFS, DP, Graphs, etc.)
-Add test cases
-👨‍💻 Author
-
+```
+# 👨‍💻 Author
 Kshitij Khatri
